@@ -19,7 +19,7 @@ pipeline{
 
             stage('Bring up'){
                 steps{
-                    sh "sudo docker-compose pull && sudo -E DB_PASSWORD=root docker-compose up -d."
+                    sh "sudo docker-compose pull && sudo docker-compose up -d."
                 }
             }
                  
