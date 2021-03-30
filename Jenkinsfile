@@ -15,7 +15,7 @@ pipeline{
 
                 }
             }
-        }
+        
 
             stage('Bring up'){
                 steps{
